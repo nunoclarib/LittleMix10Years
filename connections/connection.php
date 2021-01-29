@@ -8,16 +8,16 @@ function new_db_connection()
     //$env = "localhost";
 
     if ($env == "server") {
-        $hostname = 'nunoclarib.me';
-        $username = "nunoclarib";
-        $password = "Ncpribe021@#";
-        $dbname = "deca_19l4_mp_11";
+        $hostname = '';
+        $username = "";
+        $password = "";
+        $dbname = "";
     }
     if ($env == "localhost") {
         $hostname = 'localhost';
         $username = "root";
         $password = "";
-        $dbname = "miniprojeto";
+        $dbname = "";
     }
 
 // Connection
